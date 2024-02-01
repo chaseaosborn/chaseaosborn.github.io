@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    width: 250px;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
+
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+
+
+
