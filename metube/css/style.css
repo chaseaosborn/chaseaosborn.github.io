@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar content";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    background-color: aquamarine;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: crimson;
+}
+
+#header #tube {
+    color: white;
+    background-color: darkblue;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: aquamarine;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+    border-bottom: 1px solid aquamarine;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+    padding: 12px;
+}
+
+#sidebar ul a:hover {
+    background-color: cyan;
+    border-radius: 12px;
+}
+
+#main {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder1 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder2 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder3 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder4 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder5 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder6 img {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, blue);
+    border-radius: 8px;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
