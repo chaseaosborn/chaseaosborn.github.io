@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 250px;
+    grid-template-areas: "header header header" 
+                         "column1 content sidebar"
+                                                                 
+}
+
+#header {
+    padding: 0px 40px;
+    text-align: center;
+    grid-area: header;
+}
+
+#header #me {
+    color: dodgerblue;
+}
+
+#header #b {
+    color: darkorchid;
+}
+
+#header #ay {
+    color: crimson;
+}
+#image {
+    grid-area: column1;
+}
+
+#main {
+display: flex;
+flex-wrap: wrap;
+grid-area: content;
+}
+
+.mebay-item h2 {
+    margin: 8px
+}
+
+.mebay-item .condition {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.mebay-item .condition span {
+    font-weight: bold;
+}
+
+.mebay-item .quantity {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.mebay-item .quantity span {
+    color: dodgerblue;
+}
+
+.mebay-item .price {
+    margin: 50px;
+    font-size: 14px;
+}
+
+.mebay-item .price span {
+    font-size: 30px;
+}
+
+.mebay-item .buy {
+    margin: 20px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.mebay-item .add {
+    margin: 20px;
+    background-color: darkorchid;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.mebay-item .wishlist {
+    margin: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#sidebar {
+    background-color: ghostwhite;
+    padding: 20px;
+    grid-area: sidebar;
+    border: 1px solid black;
+    background: fixed;
+}
+
+#sidebar h2 {
+    margin: 0px;
+    padding: 12px;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+#sidebar .email {
+    margin: 8px;
+}
+
+#sidebar .positivefeedback {
+    margin: 8px;
+}
+
+#sidebar ul {
+    margin:20px;
+    list-style-type: none;
+    padding: 0px 0px 0px 1px;
+}
+
+#sidebar a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+#sidebar li {
+    border-bottom: none;
+    padding: 0px 0px;
+}
+
+#sidebar li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
