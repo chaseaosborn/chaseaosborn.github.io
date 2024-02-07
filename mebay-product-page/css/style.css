@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 250px;
     grid-template-areas: "header header header" 
-                         "column1 content sidebar"
+                         "sidebar-left content sidebar"
                                                                  
 }
 
@@ -33,7 +33,7 @@ body {
     color: crimson;
 }
 #image {
-    grid-area: column1;
+    grid-area: sidebar-left;
 }
 
 #main {
