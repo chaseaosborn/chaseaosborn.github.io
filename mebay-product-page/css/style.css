@@ -100,49 +100,70 @@ grid-area: content;
     display: inline-block;
 }
 
-#sidebar {
+#sidebar-content .sellerinformation {
     background-color: ghostwhite;
-    padding: 20px;
+    padding: 1rem;
     grid-area: sidebar;
     border: 1px solid black;
-    background: fixed;
 }
 
-#sidebar h2 {
-    margin: 0px;
-    padding: 12px;
-    font-size: 20px;
-    font-variant: small-caps;
+#sidebar-content h4 {
+    text-align: center;
 }
 
-#sidebar .email {
+#sidebar-content .email {
     margin: 8px;
+    text-align: center;
 }
 
-#sidebar .positivefeedback {
+#sidebar-content .positivefeedback {
     margin: 8px;
+    text-align: center;
 }
 
-#sidebar ul {
+#sidebar-content ul {
     margin:20px;
     list-style-type: none;
     padding: 0px 0px 0px 1px;
 }
 
-#sidebar a {
+#sidebar-content a {
     color: dodgerblue;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-#sidebar li {
+#sidebar-content li {
     border-bottom: none;
-    padding: 0px 0px;
+    margin: 8px;
 }
 
-#sidebar li:last-child {
+#sidebar-content .confidence {
+    background-color: ghostwhite;
+    padding: 1rem;
+    grid-area: sidebar;
+    border: 1px solid black;
+    margin-top: 24px;
+}
+
+#sidebar-content .money {
+    font-weight: bold;
+    margin: 8px;
+    text-align: center;
+}
+
+#sidebar-content .ordered {
+    margin: 8px;
+    text-align: center;
+}
+
+#sidebar-content .learn {
+    margin: 15px;
+    text-align: center;
+}
+
+#sidebar-content li:last-child {
     border-bottom: none;
 }
-
 
 
 
