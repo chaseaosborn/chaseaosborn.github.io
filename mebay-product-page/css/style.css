@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 250px;
     grid-template-areas: "header header header" 
-                         "sidebar-left content sidebar-right"
+                         "sidebar-left main-area sidebar-right"
                                                                  
 }
 
@@ -41,7 +41,7 @@ body {
 #main {
 display: flex;
 flex-wrap: wrap;
-grid-area: content;
+grid-area: main-area;
 }
 
 .mebay-item h2 {
