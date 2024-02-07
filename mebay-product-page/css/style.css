@@ -4,14 +4,15 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif; 
+    font-family: sans-serif;
+    background-color: lavender; 
 }
 
 #grid-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 250px;
     grid-template-areas: "header header header" 
-                         "sidebar-left content sidebar"
+                         "sidebar-left content sidebar-right"
                                                                  
 }
 
@@ -19,6 +20,7 @@ body {
     padding: 0px 40px;
     text-align: center;
     grid-area: header;
+    background-color: lightcyan;
 }
 
 #header #me {
@@ -65,16 +67,18 @@ grid-area: content;
 }
 
 .mebay-item .price {
-    margin: 50px;
+    margin: 60px;
     font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .mebay-item .price span {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .mebay-item .buy {
-    margin: 20px;
+    margin-top: 20px;
     background-color: dodgerblue;
     color: white;
     padding: 15px 32px;
@@ -83,6 +87,7 @@ grid-area: content;
 }
 
 .mebay-item .add {
+    margin-top: 20px;
     margin: 20px;
     background-color: darkorchid;
     color: white;
@@ -92,7 +97,7 @@ grid-area: content;
 }
 
 .mebay-item .wishlist {
-    margin: 20px;
+    margin-top: 80px;
     background-color: crimson;
     color: white;
     padding: 15px 32px;
@@ -101,10 +106,11 @@ grid-area: content;
 }
 
 #sidebar-content .sellerinformation {
-    background-color: ghostwhite;
+    background-color: lightcyan;
     padding: 1rem;
-    grid-area: sidebar;
+    grid-area: sidebar-right;
     border: 1px solid black;
+    margin-top: 24px;
 }
 
 #sidebar-content h4 {
@@ -138,9 +144,9 @@ grid-area: content;
 }
 
 #sidebar-content .confidence {
-    background-color: ghostwhite;
+    background-color: lightcyan;
     padding: 1rem;
-    grid-area: sidebar;
+    grid-area: sidebar-right;
     border: 1px solid black;
     margin-top: 24px;
 }
