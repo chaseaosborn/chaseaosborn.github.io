@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 16px;
-    align-items: flex start;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -47,9 +46,9 @@ body {
     margin-bottom: 20px;
 }
 
-
-
-
+.card-style-2 .animagram-footer span {
+    margin: 15px;
+}
 
 
 
