@@ -10,7 +10,7 @@ body {
 .card-style-2 {
     background-color: white;
     max-width: 350px;
-    border-radius: 20px;
+    border-radius: 35px;
     display: flex;
     flex-direction: column;
     margin: 16px;
