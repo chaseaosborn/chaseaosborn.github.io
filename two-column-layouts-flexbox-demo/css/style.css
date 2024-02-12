@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: orange;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid darkorange;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid darkorange;
+    padding-bottom: 8px;
+    font-family: fantasy;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar-content ul a {
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
+
+#main-content {
+    background-color: chartreuse;
+    flex: 1;
+    padding: 48px;
+}
