@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/road.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-1 .hero-content {
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-1 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    color: cyan;
+}
+
+#hero-1 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color:lightblue;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 {
+    background-image: url(../images/woodsthree.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-2 .hero-content {
+    text-align: center;
+    padding-top: 20vh
+}
+
+#hero-2 h1 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    color: lawngreen;
+}
+
+#hero-2 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: yellow;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url(../images/starstwo.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-3 .hero-content {
+    text-align: center;
+    padding-top: 20vh
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+    color: cyan;
+}
+
+#hero-3 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: lightcyan;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(59, 35, 145);
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
