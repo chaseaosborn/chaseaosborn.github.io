@@ -26,13 +26,13 @@ body {
 #hero-1 h2 {
     font-size: 8vw;
     margin: 0px 5vw 5vh 0px;
-    color: cyan;
+    color: rgb(136, 255, 0);
 }
 
 #hero-1 h3 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
-    color:lightblue;
+    color:lightgreen;
 }
 
 #hero-1 a {
