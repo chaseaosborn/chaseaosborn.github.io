@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(to top, #f0ead2, #dde5b6, #adc178);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: olive;
+    padding: 24px;
+    font-size: 25px;
+}
+
+#navbar-1 #logo {
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #8ecae6, #219ebc);
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+}
+
+#navbar-2 #logo {
+    width: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar-2 .cta-button {
+    background-color: white;
+    color: #219ebc;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+    padding-bottom: 18px;
+}
+
+#navbar-3 p {
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-size: 20px;
+}
+
+#navbar-3 #logo {
+    width: 150px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#navbar-3 .cta-button {
+    background-color: black;
+    color: darkorange;
+    border-radius: 36px;
+    padding: 16px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: darkorange;
+    padding: 12px 36px;
+}
