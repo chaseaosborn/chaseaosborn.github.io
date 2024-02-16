@@ -45,6 +45,7 @@ body {
     display: inline-block;
     background-color: rgb(81, 43, 100);
     color: aquamarine;
+    box-shadow: 4px 4px 12px aqua;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
