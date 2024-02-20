@@ -232,12 +232,11 @@ a {
     }
 
     .three-cards p {
-        font-size: 25px;
-        padding: 48px;
+        padding: 24px;
     }
 
     .three-cards a {
-        width: 600px;
+        width: 500px;
     }
 
     .two-cards {
