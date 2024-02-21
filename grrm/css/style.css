@@ -521,8 +521,11 @@ body {
     #card-3,
     #aside,
     #main {
-        margin: none;
-        padding: none;
         background-color: none;
+        margin: 0px;
+        padding: 0px;
     }
+
     
+    
+}
