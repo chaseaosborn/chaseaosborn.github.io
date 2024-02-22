@@ -164,7 +164,7 @@ h2 {
 
 #card7 {
     background-color: cornflowerblue;
-    padding-bottom: 92px;
+    padding-bottom: 98px;
   
 }
 
@@ -269,7 +269,7 @@ h2 {
 #card12 {
     background: url(../images/ostrich2.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     align-items: center;
     display: flex;
     justify-content: center;
