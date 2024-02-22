@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#card-container-1  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+   justify-content: column;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#card1:hover {
+    background-color: rgb(158, 20, 20);
+    color: rgb(221, 132, 132);
+    box-shadow: 10px 0px 24px red;
+    transform: translateY(-4px);
+    border: 3px solid rgb(158, 20, 20);
+}
+
+#card1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s,
+        color 0.5s,
+        border 0.5s;
+}
+
+#card2:hover {
+    background-color: blue;
+    color: turquoise;
+    box-shadow: 10px 0px 24px blue;
+    transform: translateY(-4px);
+    border: 3px solid blue;
+}
+
+#card2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s,
+        color 0.5s,
+        border 0.5s;
+}
+
+#card3:hover {
+    background-color: green;
+    color: lightgreen;
+    box-shadow: 10px 0px 24px green;
+    transform: translateY(-4px);
+    border: 3px solid green;
+}
+
+#card3 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s,
+        color 0.5s,
+        border 0.5s;
+}
+
+#card4:hover {
+    background-color: purple;
+    color: violet;
+    box-shadow: 10px 0px 24px darkorchid;
+    transform: translateY(-4px);
+    border: 3px solid purple;
+}
+
+#card4 {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s,
+    color 0.5s,
+    border 0.5s;
+}
+
+#card-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#card-container-2 img {
+    width: 100%;
+}
+
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card5 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card5 {
+    background-color: tan;
+}
+
+#card6:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card6 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card6 {
+    background-color: orange;
+}
+
+
+#card7:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card7 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card7 {
+    background-color: cornflowerblue;
+    padding-bottom: 92px;
+  
+}
+
+#card8:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card8 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card8 {
+    background-color: darkorchid;
+}
+
+#card-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#card9 {
+    background: url(../images/hyena.jpeg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    color: rgb(0, 255, 255);
+}
+
+#card9:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card9 .card-content {
+    transition: 
+         opacity 0.5s,
+         visibility 0.5s;
+}
+
+#card10 {
+    background: url(../images/rhino2.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    color: rgb(234, 245, 81);
+}
+
+#card10:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card10 .card-content {
+    transition: 
+    opacity 0.5s,
+    visibility 0.5s;
+}
+
+#card11 {
+    background: url(../images/warthog.jpeg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    color: lightcyan;
+}
+
+#card11:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card11 .card-content {
+    transition: 
+    opacity 0.5s,
+    visibility 0.5s;
+}
+
+#card12 {
+    background: url(../images/ostrich2.jpeg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    color: cyan;
+}
+
+#card12:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#card12 .card-content {
+    transition: 
+    opacity 0.5s,
+    visibility 0.5s;
+}
+
+
