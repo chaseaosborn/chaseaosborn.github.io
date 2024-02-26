@@ -145,10 +145,27 @@ h2 {
     }
 
     #navbar a {
-        width: 190px;
+        width: 100%;
+    }
+
+    h2 {
+        width: 50%;
+        text-align: center;
+    }
+
+    .single-column img {
+        width: 70%;
+        align-items: center;
+    }
+  
+    p {
+        font-size: smaller;
+        width: 70%;
     }
 
 }
+
+
 
 
 
