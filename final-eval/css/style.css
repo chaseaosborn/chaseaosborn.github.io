@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.single-columns {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-columns h3 {
+    text-align: center;
+    color: navy;
+}
+
+.single-columns h1 {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.single-columns h4 {
+    text-align: center;
+    color: navy;
+}
+
+.single-columns h2 {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+}
+
+.single-columns a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.single-columns .cta-button {
+    background-color: crimson;
+    color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+  }
+
+  .column img {
+    width: 300px;
+  }
+
+.row h1 {
+    margin-left: 0px;
+    padding: 24px;
+}
+
+.row h2 {
+    margin-right: 0px;
+}
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 480px) {
+    
+    .column img {
+        width: 130px;
+        margin-left: 40px;
+    }
+
+    .row h1 {
+        font-size: small;
+        padding: 0px;
+    }
+
+    .single-columns h1 {
+        font-size: 30px;
+    }
+
+    .single-columns h2 {
+        font-size: 25px;
+    }
+
+    .single-columns h3 {
+        font-size: 12px;
+    }
+
+    .single-columns h4 {
+        font-size: 10px;
+    }
+}
+
