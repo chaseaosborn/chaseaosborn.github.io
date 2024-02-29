@@ -134,6 +134,7 @@ h1 {
 
 #main-content h3 {
     text-align: center;
+    color: darkorchid;
 }
 
 #main-content .price {
@@ -150,6 +151,7 @@ h1 {
 .single-columns h3 {
     text-align: center;
     margin-top: 50px;
+    color: darkorchid;
 }
 
 .single-columns .price {
