@@ -128,15 +128,16 @@ h1 {
 }
 
 #side-image img {
-    width: 750px;
+    width: 650px;
     border: 5px solid darkorchid;
     border-radius: 24px;
-    margin-left: 24px;
+    margin-left: 250px;
+    margin-top: 150px;
 }
 
 #main-content {
     flex: 1;
-    padding: 48px;
+    padding: 200px;
     margin-top: 50px;
 }
 
@@ -156,13 +157,14 @@ h1 {
 
 .single-columns h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 .single-columns h3 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     color: darkorchid;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .single-columns .price {
@@ -170,6 +172,7 @@ h1 {
     font-weight: bold;
     font-style: italic;
     margin-bottom: 60px;
+    font-size: 20px;
 }
 
 /* Tablet Breakpoint */
