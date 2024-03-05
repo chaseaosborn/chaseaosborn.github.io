@@ -77,7 +77,7 @@ function reactToJumpRightButton() {
 
 function reactToJumpLeftButton() {
 
-    jumpleft();
+    jumpLeft();
 
 }
 
